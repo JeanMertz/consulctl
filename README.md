@@ -8,6 +8,7 @@ Easily get and manage key/value pairs in a Consul cluster.
 ```bash
 $ consulctl put foo bar
 $ consulctl put foo/bar baz
+$ consulctl put foo/bar/baz qux
 
 $ consulctl get foo
 # => bar
@@ -16,7 +17,10 @@ $ consulctl get foo/bar
 # => baz
 
 $ consulctl delete foo
-$ consulctl delete foo/bar
+$ consulctl delete -r foo/bar
+
+$ consulctl get foo/bar/baz
+# =>
 ```
 
 ## Help
