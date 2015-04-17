@@ -21,6 +21,11 @@ func main() {
 			Usage:  "the remote endpoint for the Consul cluster",
 			EnvVar: "CONSUL_KV_ADDRESS",
 		},
+		cli.IntFlag{
+			Name:   "wait, w",
+			Usage:  "request timeout value in seconds",
+			EnvVar: "CONSUL_KV_WAIT",
+		},
 	}
 	app.Commands = []cli.Command{
 		command.NewGetCommand(),

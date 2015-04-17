@@ -39,13 +39,14 @@ AUTHOR:
   Jean Mertz - <jean@mertz.fm>
 
 COMMANDS:
-   get    retrieve the value of a key
-   put    set the value of a key
-   delete delete a key
+   get      retrieve the value of a key
+   put      set the value of a key
+   delete   delete a key
    help, h  Shows a list of commands or help for one command
 
 GLOBAL OPTIONS:
-   --address, -A "127.0.0.1:8500" the remote endpoint for the Consul cluster [$CONSUL_KV_ADDRESS]
-   --help, -h       show help
-   --version, -v      print the version
+   --address, -A "127.0.0.1:8500"   the remote endpoint for the Consul cluster [$CONSUL_KV_ADDRESS]
+   --wait, -w "0"                   request timeout value in seconds [$CONSUL_KV_WAIT]
+   --help, -h                       show help
+   --version, -v                    print the version
 ```

@@ -1,6 +1,10 @@
 Consulctl Changelog
 ===================
 
+## UNRELEASED
+
+  * Add `--wait` option to handle timeouts
+
 ## v0.2.0 (April 16, 2015)
 
   * Add `--recursive` option to `delete`
