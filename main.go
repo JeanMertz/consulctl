@@ -10,7 +10,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "consulctl"
-	app.Version = "0.2.0"
+	app.Version = "0.3.0"
 	app.Author = "Jean Mertz"
 	app.Email = "jean@mertz.fm"
 	app.Usage = "A simple command line client for Consul k/v store."

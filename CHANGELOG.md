@@ -1,7 +1,7 @@
 Consulctl Changelog
 ===================
 
-## UNRELEASED
+## v0.3.0 (April 17, 2015)
 
   * Add `--wait` option to handle timeouts
 
